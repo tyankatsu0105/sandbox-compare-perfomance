@@ -1,0 +1,23 @@
+{
+  "name": "sandbox-compare-perfomance",
+  "private": true,
+  "repository": "git@github.com:tyankatsu0105/sandbox-compare-perfomance.git",
+  "license": "MIT",
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
+  "scripts": {
+    "start": "ts-node prompt.ts"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "@types/shelljs": "^0.8.8",
+    "enquirer": "^2.3.6",
+    "shelljs": "^0.8.4"
+  }
+}
